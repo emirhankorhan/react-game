@@ -4,7 +4,7 @@ import "./start.css"
 function Start() {
   return (
     <div>
-        <button>BAŞLA</button>
+        <button><a href='/one'>BAŞLA</a></button>
     </div>
   )
 }
