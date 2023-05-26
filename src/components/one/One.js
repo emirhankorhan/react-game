@@ -1,8 +1,12 @@
 import React from 'react'
+import "./one.css"
 
 function One() {
   return (
-    <div className='one'>Bu oyuna başlamakla hiç iyi yapmadın kardeşşşşşşş!</div>
+    <div className='one'>
+        <p>Bu oyuna başlamakla <br></br>hiç iyi yapmadın <br></br>kardeşşşşşşş!
+        </p>
+        </div>
   )
 }
 
