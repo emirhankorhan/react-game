@@ -18,6 +18,7 @@
     cursor: pointer;
     padding: 0;
     margin: 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 .onex button{
@@ -149,13 +150,21 @@
 }
 
 .health{
-    width: 15rem;
-    height: 3rem;
-    background-color: aliceblue;
+    width: 5rem;
+    height: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 7rem;
+    background-image: url(heart-431.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
 }
+
+
 
 .alertmessage{
     width: 100%;
@@ -163,7 +172,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: aliceblue;
+    flex-direction: column;
+}
+
+.alertmessage p{
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.alertmessage a{
+    width: 10rem;
+    height:3rem;
+    background-color: #929292;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 20px;
 }
 
 .congra{

@@ -1,0 +1,29 @@
+.nono-div{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nono-text{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nono-text p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nono-text h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}

@@ -30,11 +30,15 @@ function One() {
   const [butone25, setButone25] = useState(false)
   const [health, setHealth] = useState(3)
 
+  
+
   const healtCheck = () => {
     
     setHealth(health-1);
     
   }
+
+ 
 
   const but1click = () => {
     setButone(!butone);
@@ -137,13 +141,17 @@ function One() {
   }
 
   if (health === 0) {
-    return(<div className='alertmessage'>Üzgünüm oyunu kaybettin!<br></br> Sayfayı yenile ve baştan başla!</div>)
+    return(<div className='alertmessage'><p>Üzgünüm oyunu kaybettin!<br></br> Sayfayı yenile ve baştan başla!</p>
+    <a href='/one'>Yeniden Başla</a>
+    </div>)
     
     
   }else if(health > 0 && (butone2 === false || butone3 === false || butone4 === false || butone6 === false || butone7 === false || butone8 === false || butone9 === false || butone11 === false || butone12 === false || butone13 === false || butone14 === false || butone17 === false || butone18 === false || butone19 === false || butone20 === false || butone21 === false || butone22 === false || butone23 === false || butone24 === false || butone25 === false)){
     return (
       <div className='one'>
-        <div className='health'> {health} adet yanlış yapma hakkınız var!</div>
+        <div className='health'> 
+        {health}
+        </div>
         <div className='col0'>
           <div className='col0zero'>
           <button className='numberzeroone'>2 * 1</button>
@@ -214,11 +222,11 @@ function One() {
         </div>
         <div className='col1'>
           <button className='numberone'>3</button>
-          <button onClick= {() => {but1click(); healtCheck(); }} className={`${butone ? "but1complete" : "but1x"}`}></button>
+          <button onClick= {() => {but1click(); healtCheck(); }} className="but1x"></button>
           <button onClick={but2click} className={`${butone2 ? "but2x" : "but2complete"}`}></button>
           <button onClick={but3click} className={`${butone3 ? "but3x" : "but3complete"}`}></button>
           <button onClick={but4click} className={`${butone4 ? "but4x" : "but4complete"}`}></button>
-          <button onClick= {() => {but5click(); healtCheck(); }} className={`${butone5 ? "but5complete" : "but5x"}`}></button>
+          <button onClick= {() => {but5click(); healtCheck(); }} className="but5x"></button>
         </div>
         <div className='col2'>
           <button className='numbertwo'>4</button>
@@ -226,7 +234,7 @@ function One() {
         <button onClick={but7click} className={`${butone7 ? "but7x" : "but7complete"}`}></button>
         <button onClick={but8click} className={`${butone8 ? "but8x" : "but8complete"}`}></button>
         <button onClick={but9click} className={`${butone9 ? "but9x" : "but9complete"}`}></button>
-        <button onClick= {() => {but10click(); healtCheck(); }} className={`${butone10 ? "but10complete" : "but10x"}`}></button>
+        <button onClick= {() => {but10click(); healtCheck(); }} className="but10x"></button>
         </div>
         <div className='col3'>
           <button className='numberthree'>4</button>
@@ -234,11 +242,11 @@ function One() {
         <button onClick={but12click} className={`${butone12 ? "but12x" : "but12complete"}`}></button>
         <button onClick={but13click} className={`${butone13 ? "but13x" : "but13complete"}`}></button>
         <button onClick={but14click} className={`${butone14 ? "but14x" : "but14complete"}`}></button>
-        <button onClick= {() => {but15click(); healtCheck(); }} className={`${butone15 ? "but15complete" : "but15x"}`}></button>
+        <button onClick= {() => {but15click(); healtCheck(); }} className="but15x"></button>
         </div>
         <div className='col4'>
           <button className='numberfour'>4</button>
-        <button onClick= {() => {but16click(); healtCheck(); }} className={`${butone16 ? "but16complete" : "but16x"}`}></button>
+        <button onClick= {() => {but16click(); healtCheck(); }} className="but16x"></button>
         <button onClick={but17click} className={`${butone17 ? "but17x" : "but17complete"}`}></button>
         <button onClick={but18click} className={`${butone18 ? "but18x" : "but18complete"}`}></button>
         <button onClick={but19click} className={`${butone19 ? "but19x" : "but19complete"}`}></button>
