@@ -208,7 +208,8 @@ function One() {
   }else if(health > 0 && (butone2 === true || butone3 === true || butone4 === true || butone6 === true || butone7 === true || butone8 === true || butone9 === true || butone11 === true || butone12 === true || butone13 === true || butone14 === true || butone17 === true || butone18 === true || butone19 === true || butone20 === true || butone21 === true || butone22 === true || butone23 === true || butone24 === true || butone25 === true)){
     return(
       <div className='onex'>
-        <div className='health'>Hey bu oyunda çok başarılısın!</div>
+        <div className='healthxxx'><p>Hey bu oyunda çok başarılısın!</p>
+        <p>ASLAN</p></div>
        
         <div className='col0'>
           <div className='col0zero'>

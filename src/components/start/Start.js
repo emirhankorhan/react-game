@@ -11,6 +11,13 @@ function Start() {
         <span class="hover-text" aria-hidden="true">&nbsp;BAŞLA&nbsp;</span>
       </button>
       </a>
+
+      <a href='/whatgame'>
+      <button data-text="Awesome" class="button">
+        <span class="actual-text">&nbsp;AÇIKLAMA&nbsp;</span>
+        <span class="hover-text" aria-hidden="true">&nbsp;AÇIKLAMA&nbsp;</span>
+      </button>
+      </a>
     </div>
   )
 }

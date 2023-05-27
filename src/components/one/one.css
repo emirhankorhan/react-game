@@ -8,7 +8,39 @@
     flex-direction: column;
 }
 
+.onex{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .one button{
+    height: 3rem;
+    width: 3rem;
+    background-color: black;
+    border: solid;
+    border-color: rgb(187, 187, 187);
+    border-width: 0.7px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.onex .numberzeroone,
+.onex .numberzerotwo,
+.onex .numberzerothree,
+.onex .numberzerofour,
+.onex .numberzerofive,
+.onex .numberone,
+.onex .numbertwo,
+.onex .numberthree,
+.onex .numberfour,
+.onex .numberfive{
     height: 3rem;
     width: 3rem;
     background-color: black;
@@ -341,5 +373,20 @@
 
 .onex .col5 .but25x{
     background-color: #f6b853;
+}
+
+.healthxxx{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    text-align: center;
 }
 
