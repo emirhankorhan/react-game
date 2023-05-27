@@ -20,17 +20,32 @@
     margin: 0;
 }
 
+.onex button{
+    height: 3rem;
+    width: 3rem;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.col0,
 .col1,
 .col2,
 .col3,
 .col4,
 .col5{
-    width: 15rem;
+    width: 18rem;
     height: 3rem;
 }
 
+.col0{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .one .col1 .but1{
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(204, 0, 0);
 }
 
 .one .col1 .but2{
@@ -45,7 +60,7 @@
 }
 
 .one .col1 .but5{
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(204, 0, 0);
 }
 
 /*col2*/
@@ -66,7 +81,7 @@
 }
 
 .one .col2 .but10{
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(204, 0, 0);
 }
 
 /*col3*/
@@ -88,13 +103,13 @@
 }
 
 .one .col3 .but15{
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(204, 0,  0 );
 }
 
 /*col4*/
 
 .one .col4 .but16{
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(204, 0, 0);
 }
 
 .one .col4 .but17{
@@ -158,5 +173,145 @@
     align-items: center;
     justify-content: center;
     color: aliceblue;
+}
+
+.numberone,
+.numbertwo,
+.numberthree,
+.numberfour,
+.numberfive{
+    color: aliceblue;
+    position: relative;
+    top: -16px;
+}
+
+.numberzeroone,
+.numberzerotwo,
+.numberzerothree,
+.numberzerofour,
+.numberzerofive{
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.onex .col1 .but1x{
+    background-color: #23a6ff;
+}
+
+.onex .col1 .but2x{
+    background-color: #774218;
+}
+
+.onex .col1 .but3x{
+    background-color: #774218;
+}
+.onex .col1 .but4x{
+    background-color: #774218;
+}
+
+.onex .col1 .but5x{
+    background-color: #23a6ff;
+}
+
+/*col2*/
+
+.onex .col2 .but6x{
+    background-color: #f6b853;
+}
+
+.onex .col2 .but7x{
+    background-color: #f6b853;
+}
+
+.onex .col2 .but8x{
+    background-color: #f6b853;
+}
+.onex .col2 .but9x{
+    background-color: #774218;
+}
+
+.onex .col2 .but10x{
+    background-color: #23a6ff;
+}
+
+/*col3*/
+
+
+.onex .col3 .but11x{
+    background-color: #f6b853;
+}
+
+.onex .col3 .but12x{
+    background-color: #f6b853;
+}
+
+.onex .col3 .but13x{
+    background-color: #f6b853;
+}
+.onex .col3 .but14x{
+    background-color: #774218;
+}
+
+.onex .col3 .but15x{
+    background-color: #23a6ff;
+}
+
+/*col4*/
+
+.onex .col4 .but16x{
+    background-color: #23a6ff;
+}
+
+.onex .col4 .but17x{
+    background-color: #633714;
+}
+
+.onex .col4 .but18x{
+    background-color: #633714;
+}
+.onex .col4 .but19x{
+    background-color: #774218;
+}
+
+.onex .col4 .but20x{
+    background-color: #f6b853;
+}
+
+/*col5*/
+
+.onex .col5 .but21x{
+    background-color: #f6b853;
+}
+
+.onex .col5 .but22x{
+    background-color: #633714;
+}
+
+.onex .col5 .but23x{
+    background-color: #f6b853;
+}
+.onex .col5 .but24x{
+    background-color: #f6b853;
+}
+
+.onex .col5 .but25x{
+    background-color: #f6b853;
 }
 
