@@ -5,11 +5,158 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-.one p{
-    color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-    text-align: center;
+.one button{
+    height: 3rem;
+    width: 3rem;
+    background-color: black;
+    border: solid;
+    border-color: rgb(187, 187, 187);
+    border-width: 0.7px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
 }
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5{
+    width: 15rem;
+    height: 3rem;
+}
+
+.one .col1 .but1{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col1 .but2{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col1 .but3{
+    background-color: rgb(199, 199, 199);
+}
+.one .col1 .but4{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col1 .but5{
+    background-color: rgb(199, 199, 199);
+}
+
+/*col2*/
+
+.one .col2 .but6{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col2 .but7{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col2 .but8{
+    background-color: rgb(199, 199, 199);
+}
+.one .col2 .but9{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col2 .but10{
+    background-color: rgb(199, 199, 199);
+}
+
+/*col3*/
+
+
+.one .col3 .but11{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col3 .but12{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col3 .but13{
+    background-color: rgb(199, 199, 199);
+}
+.one .col3 .but14{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col3 .but15{
+    background-color: rgb(199, 199, 199);
+}
+
+/*col4*/
+
+.one .col4 .but16{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col4 .but17{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col4 .but18{
+    background-color: rgb(199, 199, 199);
+}
+.one .col4 .but19{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col4 .but20{
+    background-color: rgb(199, 199, 199);
+}
+
+/*col5*/
+
+.one .col5 .but21{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col5 .but22{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col5 .but23{
+    background-color: rgb(199, 199, 199);
+}
+.one .col5 .but24{
+    background-color: rgb(199, 199, 199);
+}
+
+.one .col5 .but25{
+    background-color: rgb(199, 199, 199);
+}
+
+.health{
+    width: 15rem;
+    height: 3rem;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alertmessage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.congra{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+

@@ -1,13 +1,216 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./one.css"
 
 function One() {
-  return (
-    <div className='one'>
-        <p>Bu oyuna başlamakla <br></br>hiç iyi yapmadın <br></br>kardeşşşşşşş!
-        </p>
+
+  const [butone, setButone] = useState(false)
+  const [butone2, setButone2] = useState(false)
+  const [butone3, setButone3] = useState(false)
+  const [butone4, setButone4] = useState(false)
+  const [butone5, setButone5] = useState(false)
+  const [butone6, setButone6] = useState(false)
+  const [butone7, setButone7] = useState(false)
+  const [butone8, setButone8] = useState(false)
+  const [butone9, setButone9] = useState(false)
+  const [butone10, setButone10] = useState(false)
+  const [butone11, setButone11] = useState(false)
+  const [butone12, setButone12] = useState(false)
+  const [butone13, setButone13] = useState(false)
+  const [butone14, setButone14] = useState(false)
+  const [butone15, setButone15] = useState(false)
+  const [butone16, setButone16] = useState(false)
+  const [butone17, setButone17] = useState(false)
+  const [butone18, setButone18] = useState(false)
+  const [butone19, setButone19] = useState(false)
+  const [butone20, setButone20] = useState(false)
+  const [butone21, setButone21] = useState(false)
+  const [butone22, setButone22] = useState(false)
+  const [butone23, setButone23] = useState(false)
+  const [butone24, setButone24] = useState(false)
+  const [butone25, setButone25] = useState(false)
+  const [health, setHealth] = useState(3)
+
+  const healtCheck = () => {
+    
+    setHealth(health-1);
+    
+  }
+
+  const but1click = () => {
+    setButone(!butone);
+  }
+
+  const but2click = (e) => {
+    e.preventDefault();
+    setButone2(!butone2);
+  }
+
+  const but3click = (e) => {
+    e.preventDefault();
+    setButone3(!butone3);
+  }
+
+  const but4click = (e) => {
+    e.preventDefault();
+    setButone4(!butone4);
+  }
+
+  const but5click = (e) => {
+    e.preventDefault();
+    setButone5(!butone5);
+  }
+
+  const but6click = (e) => {
+    e.preventDefault();
+    setButone6(!butone6);
+  }
+
+  const but7click = (e) => {
+    e.preventDefault();
+    setButone7(!butone7);
+  }
+
+  const but8click = (e) => {
+    e.preventDefault();
+    setButone8(!butone8);
+  }
+
+  const but9click = (e) => {
+    e.preventDefault();
+    setButone9(!butone9);
+  }
+
+  const but10click = (e) => {
+    e.preventDefault();
+    setButone10(!butone10);
+  }
+
+  const but11click = (e) => {
+    e.preventDefault();
+    setButone11(!butone11);
+  }
+
+  const but12click = (e) => {
+    e.preventDefault();
+    setButone12(!butone12);
+  }
+
+  const but13click = (e) => {
+    e.preventDefault();
+    setButone13(!butone13);
+  }
+
+  const but14click = (e) => {
+    e.preventDefault();
+    setButone14(!butone14);
+  }
+
+  const but15click = (e) => {
+    e.preventDefault();
+    setButone15(!butone15);
+  }
+
+  const but16click = (e) => {
+    e.preventDefault();
+    setButone16(!butone16);
+  }
+
+  const but17click = (e) => {
+    e.preventDefault();
+    setButone17(!butone17);
+  }
+
+  const but18click = (e) => {
+    e.preventDefault();
+    setButone18(!butone18);
+  }
+
+  const but19click = (e) => {
+    e.preventDefault();
+    setButone19(!butone19);
+  }
+
+  const but20click = (e) => {
+    e.preventDefault();
+    setButone20(!butone20);
+  }
+
+  const but21click = (e) => {
+    e.preventDefault();
+    setButone21(!butone21);
+  }
+
+  const but22click = (e) => {
+    e.preventDefault();
+    setButone22(!butone22);
+  }
+
+  const but23click = (e) => {
+    e.preventDefault();
+    setButone23(!butone23);
+  }
+
+  const but24click = (e) => {
+    e.preventDefault();
+    setButone24(!butone24);
+  }
+
+  const but25click = (e) => {
+    e.preventDefault();
+    setButone25(!butone25);
+  }
+
+  if (health === 0) {
+    return(<div className='alertmessage'>Üzgünüm oyunu kaybettin!</div>)
+    
+    
+  }else if(health > 0 && butone2 === false){
+    return (
+      <div className='one'>
+        <div className='health'> {health} adet hakkınız var!</div>
+        <div className='col1'>
+          <button onClick= {() => {but1click(); healtCheck(); }} className={`${butone ? "but1" : "but1complete"}`}></button>
+          <button onClick={but2click} className={`${butone2 ? "but2" : "but2complete"}`}></button>
+          <button onClick={but3click} className={`${butone3 ? "but3" : "but3complete"}`}></button>
+          <button onClick={but4click} className={`${butone4 ? "but4" : "but4complete"}`}></button>
+          <button onClick={but5click} className={`${butone5 ? "but5" : "but5complete"}`}></button>
         </div>
-  )
+        <div className='col2'>
+        <button onClick={but6click} className={`${butone6 ? "but6" : "but6complete"}`}></button>
+        <button onClick={but7click} className={`${butone7 ? "but7" : "but7complete"}`}></button>
+        <button onClick={but8click} className={`${butone8 ? "but8" : "but8complete"}`}></button>
+        <button onClick={but9click} className={`${butone9 ? "but9" : "but9complete"}`}></button>
+        <button onClick={but10click} className={`${butone10 ? "but10" : "but10complete"}`}></button>
+        </div>
+        <div className='col3'>
+        <button onClick={but11click} className={`${butone11 ? "but11" : "but11complete"}`}></button>
+        <button onClick={but12click} className={`${butone12 ? "but12" : "but12complete"}`}></button>
+        <button onClick={but13click} className={`${butone13 ? "but13" : "but13complete"}`}></button>
+        <button onClick={but14click} className={`${butone14 ? "but14" : "but14complete"}`}></button>
+        <button onClick={but15click} className={`${butone15 ? "but15" : "but15complete"}`}></button>
+        </div>
+        <div className='col4'>
+        <button onClick={but16click} className={`${butone16 ? "but16" : "but16complete"}`}></button>
+        <button onClick={but17click} className={`${butone17 ? "but17" : "but17complete"}`}></button>
+        <button onClick={but18click} className={`${butone18 ? "but18" : "but18complete"}`}></button>
+        <button onClick={but19click} className={`${butone19 ? "but19" : "but19complete"}`}></button>
+        <button onClick={but20click} className={`${butone20 ? "but20" : "but20complete"}`}></button>
+        </div>
+        <div className='col5'>
+        <button onClick={but21click} className={`${butone21 ? "but21" : "but21complete"}`}></button>
+        <button onClick={but22click} className={`${butone22 ? "but22" : "but22complete"}`}></button>
+        <button onClick={but23click} className={`${butone23 ? "but23" : "but23complete"}`}></button>
+        <button onClick={but24click} className={`${butone24 ? "but24" : "but24complete"}`}></button>
+        <button onClick={but25click} className={`${butone25 ? "but25" : "but25complete"}`}></button>
+        </div>
+  
+          </div>
+    )
+  }else if(health > 0 && butone2 === true){
+    return(
+      <div className='congra'>Oyunu kazandınız!</div>
+    )
+  }
 }
 
 export default One

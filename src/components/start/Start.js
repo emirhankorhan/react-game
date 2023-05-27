@@ -3,8 +3,14 @@ import "./start.css"
 
 function Start() {
   return (
-    <div>
-        <button><a href='/one'>BAŞLA</a></button>
+    <div className='game-start'>
+      <div className='nono'><p>NONOGRAM</p></div>
+      <a href='/one'>
+      <button data-text="Awesome" class="button">
+        <span class="actual-text">&nbsp;BAŞLA&nbsp;</span>
+        <span class="hover-text" aria-hidden="true">&nbsp;BAŞLA&nbsp;</span>
+      </button>
+      </a>
     </div>
   )
 }
